@@ -1,2 +1,6 @@
-export const APP_NAME = "ALX Listing App"
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.example.com"
+import { PropertyProps } from "../interfaces";
+
+export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
+  // Paste ALL property objects from the instruction here
+  // (The 20 property objects provided in the task)
+];
